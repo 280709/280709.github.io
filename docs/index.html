@@ -1,58 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    
-    <title>Mi plantilla</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional | Javier González</title>
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree">
-                <h2 style="color: #ffffff; padding-top: 20px;">Mi curso de Git y Github</h2>
+
+    <header>
+        <div class="container">
+            <h1>Ingeniero de Sistemas</h1>
+            <p class="subtitle">Lead Developer | Arquitecto de Soluciones Fintech</p>
+            <div class="contact-info">
+                <span><i class="fas fa-location-dot"></i> Medellín, Colombia</span>
             </div>
-    </div>
-    </div>
+        </div>
+    </header>
 
+    <main class="container">
+        
+        <section class="summary">
+            <h2><i class="fas fa-user"></i> Perfil Profesional</h2>
+            <p>
+                Ingeniero de Sistemas con <strong>más de 7 años de experiencia</strong> liderando equipos de desarrollo y arquitectura. Especialista en la implementación de ecosistemas transaccionales y de recaudo, integrando soluciones de <strong>PSE, Botón Bancolombia y franquicias de tarjetas</strong>. Experto en modernización de procesos mediante automatización y escalabilidad en la nube.
+            </p>
+        </section>
 
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://platzi.com/cursos/docker-fundamentos/'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Mi curso de Docker</button>
+        <div class="grid">
+            <section class="experience">
+                <h2><i class="fas fa-briefcase"></i> Experiencia Profesional</h2>
+                
+                <div class="job">
+                    <h3>Lead Developer / Especialista en Pagos</h3>
+                    <p class="date">Enero 2020 - Presente</p>
+                    <ul>
+                        <li>Liderazgo técnico en el diseño e integración de pasarelas de pago (PSE, Bancolombia, Tarjetas).</li>
+                        <li>Desarrollo de microservicios con <strong>.NET</strong> y front-ends dinámicos en <strong>React</strong>.</li>
+                        <li>Gestión de infraestructura y despliegue continuo utilizando <strong>Docker</strong> y <strong>Git</strong>.</li>
+                    </ul>
                 </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='http://aminespinoza.com'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mi sitio web</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.linkedin.com/in/aminespinoza/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Conecta en mi perfil de LinkedIn</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.instagram.com/aminespinoza10/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en Instagram</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.youtube.com/aminespinoza'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mira mi canal de Youtube</button>
-                </div>
-            </div>
-    </div>
-    </div>
 
-        <div class="text-center">
-            <a href="https://codepen.io/nightcl4w/pen/dEjreJ" style="color: #34312f;" target="_blank">Creado por OrderMerch</a>
+                <div class="job">
+                    <h3>Senior Software Engineer | Servicredito</h3>
+                    <p class="date">Sector Financiero</p>
+                    <ul>
+                        <li>Desarrollo y optimización de plataformas de crédito y sistemas de recaudo masivo.</li>
+                        <li>Integración de servicios financieros críticos con altos estándares de seguridad y auditoría.</li>
+                        <li>Mantenimiento y modelado de bases de datos <strong>SQL</strong> para procesos transaccionales.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Ingeniero de Desarrollo | Pesaje Inteligente</h3>
+                    <p class="date">Automatización de Procesos</p>
+                    <ul>
+                        <li>Diseño de sistemas para la automatización de procesos industriales y de pesaje.</li>
+                        <li>Implementación de software para la captura y gestión de datos en tiempo real.</li>
+                        <li>Optimización de flujos operativos mediante integraciones de hardware y software.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="skills">
+                <h2><i class="fas fa-code"></i> Stack Técnico</h2>
+                <div class="skill-tag">.NET / C#</div>
+                <div class="skill-tag">React / Vite</div>
+                <div class="skill-tag">SQL Server</div>
+                <div class="skill-tag">Docker</div>
+                <div class="skill-tag">Git</div>
+
+                <h2 style="margin-top: 20px;"><i class="fas fa-credit-card"></i> Fintech & Pagos</h2>
+                <div class="skill-tag payment">PSE</div>
+                <div class="skill-tag payment">Boton Bancolombia</div>
+                <div class="skill-tag payment">Franquicias (Visa/MC)</div>
+                <div class="skill-tag payment">Pasarelas de Pago</div>
+
+                <h2 style="margin-top: 20px;"><i class="fas fa-robot"></i> Especialidades</h2>
+                <div class="skill-tag">Liderazgo de Equipos</div>
+                <div class="skill-tag">Automatización</div>
+                <div class="skill-tag">Arquitectura Cloud</div>
+            </aside>
         </div>
 
+    </main>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
+    <footer>
+        <p>&copy; 2026 - Perfil Profesional Senior</p>
+    </footer>
+
 </body>
-
 </html>
